@@ -309,5 +309,8 @@ def update_dashboard(selected_state):
     
     return (overview_card, kpi_cards, fig1, fig2, fig3, fig4, insights, customer_table)
 
+
+server = app.server
+
 if __name__ == '__main__':
-    app.run_server(debug=True, port=8052)
+    app.run(debug=True)
