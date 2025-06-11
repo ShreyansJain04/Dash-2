@@ -8,7 +8,7 @@ from dash import dcc, html, Input, Output
 import dash_bootstrap_components as dbc
 
 # Load and process your data
-df = pd.read_excel('C:\\Users\\Vidhi Shah\\Downloads\\Trans-base-priority-wise-with-priority_2.xlsx')
+df = pd.read_excel('./Trans-base-priority-wise-with-priority_2.xlsx')
 
 # Get unique states from the data
 
